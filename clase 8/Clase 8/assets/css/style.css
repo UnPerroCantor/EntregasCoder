@@ -1,0 +1,113 @@
+.container {
+  position: relative;
+}
+.box {
+  width: 180px;
+  height: 180px;
+  color: #fff;
+  text-align: center;
+  line-height: 180px;
+  margin: 30px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+.gradient {
+  background-color: #2231bb;
+}
+.gradient:hover {
+  background-image: linear-gradient(
+    to top,
+    rgb(245, 195, 234),
+    rgb(230, 0, 255)
+  );
+}
+
+.translate {
+  background-color: #51abbb;
+}
+
+.translate:hover {
+  transform: translateY(-20px);
+}
+
+.rotate {
+  background-color: #158f3e;
+}
+.rotate:hover {
+  transform: rotate(30deg);
+  background-color: pink;
+}
+
+.scale {
+  background-color: #3498db;
+}
+
+.scale:hover {
+  transform: scale(0.5);
+}
+
+.transition {
+  background-color: #e585e8;
+  transition: height 2s, width 1s;
+}
+
+.transition:hover {
+  height: 400px;
+  width: 400px;
+}
+
+@keyframes nombre_efecto {
+  0% {
+    background-color: #17a589;
+  }
+  25% {
+    background-color: #2231bb;
+  }
+  50% {
+    background-color: #17a589;
+  }
+  75% {
+    background-color: #2231bb;
+  }
+  100% {
+    width: 100%;
+    background-color: #17a589;
+  }
+}
+
+.keyframes {
+  background-color: #51abbb;
+  width: 600px;
+  animation-name: nombre_efecto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+}
+
+@keyframes heroAnimate {
+  0% {
+    background: #17a589;
+  }
+  25% {
+    background: #2231bb;
+  }
+  50% {
+    background: #17a589;
+  }
+  75% {
+    background: #2231bb;
+  }
+  100% {
+    background: #17a589;
+  }
+}
+
+.hero {
+  height: 60vh;
+  background-size: cover;
+  animation-name: heroAnimate;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}

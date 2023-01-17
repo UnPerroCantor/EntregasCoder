@@ -1,0 +1,128 @@
+h1 {
+    color: blue;
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: 1;
+    }
+
+.actividad1 {
+    color: orange;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#navegador {
+    display: flex;
+    flex-direction: row;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid {
+    display: grid;
+    height: 475px;
+    width: 475px;
+    border: 8px;
+    border-style: ridge;
+    border-color: darkgrey;
+    grid-template-columns: 2fr 2fr 2fr 4fr 2fr 2fr 1fr;
+    grid-template-rows: 2fr 4fr 4fr 2fr 2fr 1fr 1fr;
+    grid-template-areas:
+    "celeste1 celeste1 blanco1 blanco1 amarillo1 amarillo1 celeste2"
+    "blanco2 rojo1 rojo1 rojo1 amarillo2 amarillo2 celeste2"
+    "celeste3 rojo1 rojo1 rojo1 blanco3 blanco4 celeste2"
+    "celeste3 negro1 negro1 gris1 blanco5 blanco5 celeste2"
+    "amarillo3 negro1 negro1 gris2 azul azul rojo2"
+    "amarillo3 blanco6 blanco6 negro2 azul azul rojo2"
+    "amarillo3 blanco6 blanco6 blanco7 blanco7 blanco7 rojo2";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: black;
+}
+
+.celeste1 {
+    grid-area: celeste1;
+    background-color: aliceblue    
+}
+.celeste2 {
+    grid-area: celeste2;
+    background-color: aliceblue    
+}
+.celeste3 {
+    grid-area: celeste3;
+    background-color: aliceblue    
+}
+.blanco1 {
+    grid-area: blanco1;
+    background-color: floralwhite;
+}
+.blanco2 {
+    grid-area: blanco2;
+    background-color: floralwhite;
+}
+.blanco3 {
+    grid-area: blanco3;
+    background-color: floralwhite;
+}
+.blanco4 {
+    grid-area: blanco4;
+    background-color: floralwhite;
+}
+.blanco5 {
+    grid-area: blanco5;
+    background-color: floralwhite;
+}
+.blanco6 {
+    grid-area: blanco6;
+    background-color: floralwhite;
+}
+.blanco7 {
+    grid-area: blanco7;
+    background-color: floralwhite;
+}
+.amarillo1 {
+    grid-area: amarillo1;
+    background-color: goldenrod;
+}
+.amarillo2 {
+    grid-area: amarillo2;
+    background-color: goldenrod;
+}
+.amarillo3 {
+    grid-area: amarillo3;
+    background-color: goldenrod;
+}
+.rojo1 {
+    grid-area: rojo1;
+    background-color: firebrick;
+}
+.rojo2 {
+    grid-area: rojo2;
+    background-color: firebrick;
+}
+.negro1 {
+    grid-area: negro1;
+    background-color: black
+}
+.negro2 {
+    grid-area: negro2;
+    background-color: black
+}
+.azul {
+    grid-area: azul;
+    background-color: royalblue;
+}
+.gris1 {
+    grid-area: gris1;
+    background-color: silver;
+}
+.gris2 {
+    grid-area: gris2;
+    background-color: silver;
+}

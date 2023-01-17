@@ -1,0 +1,7 @@
+Generador de degradados
+https://cssgradient.io/
+https://webgradients.com/
+https://uigradients.com/
+
+Animaciones
+https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-timing-function2

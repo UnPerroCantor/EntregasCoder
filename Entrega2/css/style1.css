@@ -1,0 +1,11 @@
+
+.BotonesFiltros span{
+    border-radius: 15px;
+    padding: 0.7em 1em;
+    background-color: rgb(219, 219, 219);
+}
+
+.BotonesFiltros a {
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}

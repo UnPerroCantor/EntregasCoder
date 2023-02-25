@@ -1,0 +1,65 @@
+[33mcommit 406a09e62d5de74d440c5c1dbaabddbfa8583981[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Petrov <pedrocanton.c@gmail.com>
+Date:   Wed Jan 18 21:39:52 2023 -0300
+
+            new file:   index.html
+            new file:   style.css
+
+[33mcommit 7ed04328334ffbdaf49f595e1361c5dfadac814d[m
+Author: Petrov <pedrocanton.c@gmail.com>
+Date:   Wed Jan 18 21:03:54 2023 -0300
+
+     new file:   Entrega1/Mockups/Home Desktop.jpg
+    new file:   Entrega1/Mockups/Home Mobile.jpg
+            new file:   Entrega1/Mockups/Servicios Desktop-1.jpg
+            new file:   Entrega1/Mockups/Servicios Desktop.jpg
+            new file:   Entrega1/Mockups/Servicios Mobile-1.jpg
+            new file:   Entrega1/Mockups/Servicios Mobile.jpg
+            new file:   "Entrega1/Mockups/Sobre m\303\255 Desktop.jpg"
+            new file:   "Entrega1/Mockups/Sobre m\303\255 Mobile.jpg"
+            new file:   Entrega1/Mockups/Trabajos Desktop.jpg
+    new file:   Entrega1/Mockups/Trabajos Mobile.jpg
+            new file:   Entrega1/blog.html
+            new file:   Entrega1/imagenes/fotocvonline2.png
+            new file:   Entrega1/imagenes/imagencards.jpg
+    new file:   Entrega1/imagenes/imagencards.png
+            new file:   Entrega1/imagenes/instagram.svg
+    new file:   Entrega1/imagenes/linkedin.svg
+            new file:   Entrega1/imagenes/logo-01.png
+            new file:   Entrega1/imagenes/twitter.svg
+            new file:   Entrega1/index.html
+            new file:   Entrega1/portfolio.html
+            new file:   Entrega1/servicios.html
+            new file:   Entrega1/sobre-mi.html
+            new file:   Entrega1/style.css
+    
+    Changes not staged for commit:
+            deleted:    Entrega 1/Mockups/Home Desktop.jpg
+            deleted:    Entrega 1/Mockups/Home Mobile.jpg
+            deleted:    Entrega 1/Mockups/Servicios Desktop-1.jpg
+            deleted:    Entrega 1/Mockups/Servicios Desktop.jpg
+            deleted:    Entrega 1/Mockups/Servicios Mobile-1.jpg
+    deleted:    Entrega 1/Mockups/Servicios Mobile.jpg
+            deleted:    "Entrega 1/Mockups/Sobre m\303\255 Desktop.jpg"
+            deleted:    "Entrega 1/Mockups/Sobre m\303\255 Mobile.jpg"
+    deleted:    Entrega 1/Mockups/Trabajos Desktop.jpg
+            deleted:    Entrega 1/Mockups/Trabajos Mobile.jpg
+            deleted:    Entrega 1/blog.html
+            deleted:    Entrega 1/imagenes/fotocvonline2.png
+            deleted:    Entrega 1/imagenes/imagencards.jpg
+            deleted:    Entrega 1/imagenes/imagencards.png
+            deleted:    Entrega 1/imagenes/instagram.svg
+            deleted:    Entrega 1/imagenes/linkedin.svg
+            deleted:    Entrega 1/imagenes/logo-01.png
+            deleted:    Entrega 1/imagenes/twitter.svg
+            deleted:    Entrega 1/index.html
+            deleted:    Entrega 1/portfolio.html
+            deleted:    Entrega 1/servicios.html
+            deleted:    Entrega 1/sobre-mi.html
+    deleted:    Entrega 1/style.css
+
+[33mcommit a641b3ae2f71951780c26dee525676ac98222207[m
+Author: Petrov <pedrocanton.c@gmail.com>
+Date:   Mon Jan 16 21:34:33 2023 -0300
+
+    Inicializamos con Git

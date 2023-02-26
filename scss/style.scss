@@ -1,0 +1,40 @@
+@import "coloryestilo";
+
+* {
+    font-family: $tipografia;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+#Hero {
+    background-image: $Gradiante;
+    padding: 10% 10% 5% 10%;
+
+    
+}
+
+#BotonHero {
+
+    &:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;}
+}
+
+.boton-texto {
+    font-size: 12pt;
+    vertical-align: baseline;
+    margin-bottom:6px;
+    color: $Azul1;
+    &:hover{
+        transform: sclae(1.1);
+        transition: ease-in-out 0.2s;}
+}
+
+#Footer {
+    margin-top: 10em;
+    background-color: $Gris1;
+    padding: 2em;
+}
+

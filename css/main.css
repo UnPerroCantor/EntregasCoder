@@ -1,0 +1,27 @@
+* {
+  font-family: "Roboto", sans-serif; }
+
+a {
+  text-decoration: none !important; }
+
+#Hero {
+  background-image: linear-gradient(to bottom, #1f93ff, #9dd0ff);
+  padding: 10% 10% 5% 10%; }
+
+#BotonHero:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s; }
+
+.boton-texto {
+  font-size: 12pt;
+  vertical-align: baseline;
+  margin-bottom: 6px;
+  color: #1e7be1; }
+  .boton-texto:hover {
+    transform: sclae(1.1);
+    transition: ease-in-out 0.2s; }
+
+#Footer {
+  margin-top: 10em;
+  background-color: #e0eeff;
+  padding: 2em; }

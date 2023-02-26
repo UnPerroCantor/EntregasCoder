@@ -1,236 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style1.css">
-    <title>Un perro cantor</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="css/style-sobre-mi.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <title>Un perro cantor</title>
+    </head>
     <body>
-        <header>
-            <a href="index.html"><img id="LogoHeader" src="imagenes/logo-01.png" alt="logo con las siglas PCC"></a>
-            <nav class="">
-                <ul class="BotonHeader">
-                    <li><span><a href="entrega2/sobre-mi.html">Sobre mí</a></span></li>
-                    <li><span><a href="entrega2/servicios.html">Servicios</a></span></li>
-                    <li><span><a href="portfolio.html">Portfolio</a></span></li>
-                    <li><span><a href="blog.html">Blog</a></span></li>
-                    <li><span><a href="index.html#contacto">Contacto</a></span></li>
-                </ul>
-            </nav>
+        <header id="header">
+            <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/logo-01.png" style="height: 50px">
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="sobre-mi.html">Sobre mí</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <section id="Hero">
-            <div id="HeroTitulos">
-                <h1>Titular presentación que puede<br> tener más de una línea sin problemas</h1>
-                <a href="sobre-mi.html">
-                    <div class="boton1" id="BotonHero">
-                        <p>Sobre mí</p>
+            <div class="container">
+                <div class="row align-items-center p-10">
+                    <div class="col-sm-12 col-md-6 text-md-left">
+                        <h1>Titular presentación que puede tener más de una línea sin problemas</h1>
+                        <a href="/contacto.html">
+                            <button type="button" class="btn btn-dark" id="BotonHero">Contactame</button>
+                        </a>
                     </div>
+                    <img class="col-sm-12 col-md-6" src="assets/fotocvonline2.png">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row justify-content-center mt-4">
+                <div class="col-10 col-md-6 col-lg-4 text-center">
+                    <h2>Titular presentación que puede tener más de una línea sin problemas</h2>
+                    <p>Texto simulado para lo que sea que vaya a poner acá, suponiendo que tenga algo interesante para decir en el primer vistazo de la página. No debería ser mucho problema.</p>
+                </div>
+            </div>
+        </section>
+        <section id="PortfolioHome" class="container">
+            <div class="row justify-content-start align-items-end">
+                <h3 class="col-12 col-xl-2">PORTFOLIO</h3>
+                <a href="portfolio.html" class="col-6 boton-texto">Ver más</a>
+            </div>
+            <p>Algunos trabajos que hice en el trabajo y para aprender.</p>
+            <div class="row">
+                <article class="col-lg-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/imagencards.png">
+                        <div class="card-body">
+                            <p class="card-text">Texto simulado para lo que sea que vaya a poner acá, suponiendo que tenga algo interesante para decir en el primer vistazo de la página. No debería ser mucho problema.</p>
+                            <a href="portfolio.html">
+                                <div class="boton-texto">
+                                    <p>Ver más</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/imagencards.png">
+                        <div class="card-body">
+                            <p class="card-text">Texto simulado .</p>
+                            <a href="portfolio.html">
+                                <div class="boton-texto">
+                                    <p>Ver más</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/imagencards.png">
+                        <div class="card-body">
+                            <p class="card-text">Texto simulado para lo que sea que vaya a poner acá, suponiendo que tenga algo interesante para decir en el primer vistazo de la página. No debería ser mucho problema.</p>
+                            <a href="portfolio.html">
+                                <div class="boton-texto">
+                                    <p>Ver más</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-lg-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/imagencards.png">
+                        <div class="card-body">
+                            <p class="card-text">Texto simulado para lo que sea que vaya a poner acá, suponiendo que tenga algo interesante para decir en el primer vistazo de la página. No debería ser mucho problema.</p>
+                            <a href="portfolio.html">
+                                <div class="boton-texto">
+                                    <p>Ver más</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+    </section>
+    <section>
+        <div class="row justify-content-center mt-4">
+            <div class="col-10 col-md-6 col-lg-4 text-center">
+                <h2>Titular presentación que puede tener más de una línea sin problemas</h2>
+                <p>Texto simulado para lo que sea que vaya a poner acá, suponiendo que tenga algo interesante para decir en el primer vistazo de la página. No debería ser mucho problema.</p>
+                <a href="#contacto">
+                    <button type="button" class="btn btn-dark" id="BotonHero">Contactame</button>
                 </a>
             </div>
-            <img id="HeroFoto" src="imagenes/fotocvonline2.png">
-        </section>
-        <section class="bloque1">
-            <h2>Titular presentación que puede tener<br>más de una línea sin problemas</h2>
-            <p>Texto simulado para lo que sea que vaya a poner acá, suponiendo que tenga algo interesante para decir en el primer vistazo de la página. No debería ser mucho problema.</p>
-            <a href="#contacto">
-                <div class="boton1">
-                    <p>Contactame</p>
-                </div>
-            </a>
-        </section>
-        <section id="PortfolioHome">
-            <div>
-                <h3>PORTFOLIO</h3>
-                <a class="boton2" href="portfolio.html">Ver más</a>
-                <p>Algunos trabajos que hice en el trabajo y para aprender.</p>
-            </div>
-            <div>
-                <article class="ArticuloHome">
-                    <img src="imagenes/imagencards.png">
-                    <h4>Título del trabajo 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                    <a href="portfolio.html">
-                        <div class="boton1">
-                            <p>Ver más</p>
-                        </div>
-                    </a>
-                </article>
-                <article class="ArticuloHome">
-                    <img src="imagenes/imagencards.png">
-                    <h4>Título del trabajo 2</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                    <a href="portfolio.html">
-                        <div class="boton1">
-                            <p>Ver más</p>
-                        </div>
-                    </a>
-                </article>
-                <article class="ArticuloHome">
-                    <img src="imagenes/imagencards.png">
-                    <h4>Título del trabajo 3</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                    <a href="portfolio.html">
-                        <div class="boton1">
-                            <p>Ver más</p>
-                        </div>
-                    </a>
-                </article>
-                <article class="ArticuloHome">
-                    <img src="imagenes/imagencards.png">
-                    <h4>Título del trabajo 4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                    <a href="portfolio.html">
-                        <div class="boton1">
-                            <p>Ver más</p>
-                        </div>
-                    </a>
-                </article>
-            </div>
-        </section>
-        <section class="bloque1">
-            <h2>Titular presentación que puede tener más de una línea sin problemas</h2>
-            <p>Texto simulado para lo que sea que vaya a poner acá, suponiendo que tenga algo interesante para decir en el primer vistazo de la página. No debería ser mucho problema.</p>
-            <a href="#contacto">
-                <div class="boton1">
-                    <p>Contactame</p>
-                </div>
-            </a>
-        </section>
-        <section id="BlogHome">
-            <div>
-                <h3>BLOG</h3>
-                <a class="boton2" href="blog.html">Ver más</a>
-                <p>Algunas de las cosas que fui aprendiendo trabajando.</p>
-            </div>
-            <div>
-                <article class="Articulo2Home">
-                    <img src="imagenes/imagencards.png">
-                    <h4>Título del artículo 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                    <a href="blog.html">
-                        <div class="boton1">
-                            <p>Ver más</p>
-                        </div>
-                    </a>
-                </article>
-                <article class="Articulo2Home">
-                    <img src="imagenes/imagencards.png">
-                    <h4>Título del artículo 2</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                    <a href="blog.html">
-                        <div class="boton1">
-                            <p>Ver más</p>
-                        </div>
-                    </a>
-                </article>
-                <article class="Articulo2Home">
-                    <img src="imagenes/imagencards.png">
-                    <h4>Título del artículo 3</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                    <a href="blog.html">
-                        <div class="boton1">
-                            <p>Ver más</p>
-                        </div>
-                    </a>
-                </article>
-            </div>
-        </section>
-        <section id="contacto">
-            <div>
-                <h3>Hablemos</h3>
-                <p>Me podés encontrar en alguno de los siguientes medios</p>
-                <ul id="Redes">
-                    <li>
-                        <a href="https://www.linkedin.com/pedrocantoncorbelle">
-                            <div class="boton1">
-                                <p>LinkedIn</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:pedrocanton.c@gmail.com">
-                            <div class="boton1">
-                                <p>Email</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/unperrocantor">
-                            <div class="boton1">
-                                <p>Instagram</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com/unperrocantor">
-                            <div class="boton1">
-                                <p>Twitter</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-                <p>O escribirme directamente por acá:</p>
-                <article id="formulario">
-                    <div>
-                        <h6>Nombre</h6>
-                        <input type="text" value="Nombre"/>
-                        <h6>Tu mail</h6>
-                        <input type="email" value="Tu mail"/>
-                        <h6>Mensaje</h6>
-                        <input type="text" value="Mensaje" id="textolargo"/>
-                        <input type="submit" value="Enviar" id="botoninput"/>
-                    </div>        
-                </article>
-            </div>
-            <div>
-                <img>
-            </div>
-        </section>
-        <footer>
-            <div>
-                <ul>
-                    <li>
-                        <a href="index.html#contacto">
+        </div>
+    </section>
+    
+        <footer id="Footer">
+            <div class="row text-center">
+                <div class="col-12 col-sm-4">
+                    <div class="row">
+                        <a href="index.html#contacto" class="col-md-4 col-6">
                             <div class="boton3">
                                 <p>Contacto</p>
                             </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.html#HeroImage">
+                        </a>          
+                        <a href="index.html#HeroImage" class="col-md-4 col-6">
                             <div class="boton3">
                                 <p>Volver al inicio</p>
                             </div>
                         </a>
-                    </li>
-                </ul>
-            </div>
-            <div id="acreditacion">
-                <p>Sitio creado por Pedro Canton Corbelle</p>
-                <h7>2023 - Buenos Aires</h7>
-            </div>
-            <div>
-                <p>Redes sociales:
-                    <ul>
-                        <li class="iconoredes">
-                            <a href="https://www.linkedin.com/pedro-canton-corbelle">
-                                <img src="imagenes/linkedin.svg" class="iconoredes">
-                            </a>
-                        </li>
-                        <li class="iconoredes">
-                            <a href="https://www.instagram.com/unperrocantore">
-                                <img src="imagenes/instagram.svg" class="iconoredes">
-                            </a>
-                        </li>
-                        <li class="iconoredes">
-                            <a href="https://www.twitter.com/unperrocantor">
-                                <img src="imagenes/twitter.svg" class="iconoredes">
-                            </a>
-                        </li>
-                    </ul>
-                </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <p>Sitio creado por Pedro Canton Corbelle</p>
+                    <p>2023 - Buenos Aires</p>
+                </div>
+            
+                <div class="col-12 col-sm-4">
+                    <div class="row text-right">
+                        <p class="col-4">Redes sociales:</p>
+                        <a href="https://www.linkedin.com/pedrocantoncorbelle" class="col-md-1 col-2">
+                            <img src="assets/linkedin.svg">
+                        </a>
+
+                        <a href="https://www.instagram.com/unperrocantor" class="col-md-1 col-2">
+                            <img src="assets/instagram.svg">
+                        </a>
+
+                        <a href="https://www.twitter.com/unperrocantor" class="col-md-1 col-2">
+                            <img src="assets/twitter.svg">
+                        </a>
+                    </div>
+                </div>
             </div>
         </footer>
     </body>

@@ -1,0 +1,47 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+a {
+    text-decoration: none!important;
+    }
+
+#Hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(31, 147, 255),
+        rgb(157, 208, 255)
+        );
+    padding: 10% 10% 5% 10%;
+}
+
+@keyframes EntradaTitulos {
+    0% {opacity: 0; }
+    100% {opacity: 100; }
+}
+
+#BotonHero:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 20pt;
+    margin: 0 0;
+}
+
+.boton-texto {
+    font-size: 12pt;
+    vertical-align: baseline;
+    margin-bottom:6px;
+    color: rgb(0, 105, 204),
+}
+
+#Footer {
+    margin-top: 10em;
+    background-color: rgb(224, 230, 235);
+    padding: 2em;
+}
